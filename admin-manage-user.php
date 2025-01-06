@@ -169,9 +169,6 @@ if(isset($_POST['add_new_employee'])){
       </div>
     </div>
 
-//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com
 <?php
 if(isset($_SESSION['update_user_pass'])){
 
