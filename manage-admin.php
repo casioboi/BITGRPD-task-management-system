@@ -8,10 +8,7 @@ $security_key = $_SESSION['security_key'];
 if ($user_id == NULL || $security_key == NULL) {
     header('Location: index.php');
 }
-//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com
-// check admin
+
 $user_role = $_SESSION['user_role'];
 if ($user_role != 1) {
   header('Location: task-info.php');
@@ -21,10 +18,6 @@ $page_name="Admin";
 include("include/sidebar.php");
 
 ?>
-
-//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com
 
     <div class="row">
       <div class="col-md-12">
@@ -73,10 +66,6 @@ include("include/sidebar.php");
       </div>
     </div>
 
-<!-- //  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com -->
-<?php
 if(isset($_SESSION['update_user_pass'])){
 
   echo '<script>alert("Password updated successfully");</script>';
