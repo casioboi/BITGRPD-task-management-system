@@ -1,4 +1,4 @@
-How to Run this Free employee task management system php source code :
+How to Run this employee task management system php source code :
 
 1. Download source code (zip file) of employee task management system project with SQL file.
 2. Extract the file of the project folder (zip file) related to the taskmatic
