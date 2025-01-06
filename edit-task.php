@@ -9,10 +9,7 @@ $security_key = $_SESSION['security_key'];
 if ($user_id == NULL || $security_key == NULL) {
     header('Location: index.php');
 }
-//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com
-// check admin
+
 $user_role = $_SESSION['user_role'];
 
 $task_id = $_GET['task_id'];
@@ -136,8 +133,6 @@ $row = $info->fetch(PDO::FETCH_ASSOC);
 <?php
 
 include("include/footer.php");
-//  Author Name: Mayuri K. 
- // for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- //Visit website : www.mayurik.com
+
 ?>
 
