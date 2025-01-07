@@ -114,18 +114,18 @@ CREATE TABLE `tbl_admin` (
 --
 
 INSERT INTO `tbl_admin` (`user_id`, `fullname`, `username`, `email`, `password`, `temp_password`, `user_role`) VALUES
-(1, 'Mayuri K', 'mayuri.infospace@gmail.com', 'mayuri.infospace@gmail.com', 'cd92a26534dba48cd785cdcc0b3e6bd1', NULL, 1),
-(17, 'Raghav Shasri', 'raghavshasri', 'raghav.shasri@example.com', 'e10adc3949ba59abbe56e057f20f883e', '', 2),
-(18, 'Rajeev Kapoor', 'rajeev_kapoor', 'rajeev.kapoor@example.com', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
-(19, 'Priya Singh', 'priya_singh', 'priya.singh@example.com', 'd19cbde3f7ae39d1ac027dd5319ff687', '7301941', 2),
-(20, 'Anand Kumar', 'anand_kumar', 'anand.kumar@example.com', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
-(21, 'Deepika Reddy', 'deepika_reddy', 'deepika.reddy@example.com', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
-(22, 'Vikram Verma', 'vikram_verma', 'vikram.verma@example.com', 'd03b2612e88338d193a0ff05c3216053', '7329407', 2),
-(23, 'Sanya Gupta', 'sanya_gupta', 'sanya.gupta@example.com', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
-(24, 'Ravi Khanna', 'ravi_khanna', 'ravi.khanna@example.com', '789395abc72a025db1604582f52af520', '5876160', 2),
-(25, 'Meera Joshi', 'meera_joshi', 'meera.joshi@example.com', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
-(27, 'Suresh Jain', 'surejain', 'surejain@example.com', 'a10f11c1ba82d9698f377c1408da77b2', '6246125', 2),
-(28, 'Sachin Mahajan', 'sachinmahajan', 'sachinmahajan@gmail.com', '1455494c9f58563769b601366047c030', '', 2);
+(1, 'GROUP 14', 'GRP14@live.gctu.edu.gh', 'GRP14@live.gctu.edu.gh', 'cd92a26534dba48cd785cdcc0b3e6bd1', NULL, 1),
+(17, 'Abigail Osei - Gyimah', 'Abigail', '4211231151@live.gctu.edu.gh', 'e10adc3949ba59abbe56e057f20f883e', '', 2),
+(18, 'Alvin  Etornam', 'Alvin', '4211231091@live.gctu.edu.gh', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
+(19, 'Shadrack Anim', 'Shadrack', '4211230058@live.gctu.edu.gh', 'd19cbde3f7ae39d1ac027dd5319ff687', '7301941', 2),
+(20, 'Abigail Osei - Gyimah', 'Abigail', '4211231151@live.gctu.edu.gh', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
+(21, 'Bismark Yeboah', 'Bismark', '4211231285@live.gctu.edu.gh', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
+(22, 'Alvin  Etornam', 'Alvin', '4211231091@live.gctu.edu.gh', 'd03b2612e88338d193a0ff05c3216053', '7329407', 2),
+(23, 'Bismark Yeboah', 'Bismark', '4211231285@live.gctu.edu.gh', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
+(24, 'Klinsman Opoku', 'klinsman', '1696602555@lve.gctu.edu.gh', '789395abc72a025db1604582f52af520', '5876160', 2),
+(25, 'Alvin  Etornam', 'Alvin', '4211231091@live.gctu.edu.gh', '5f4dcc3b5aa765d61d8327deb882cf99', '', 2),
+(27, 'Klinsman Opoku', 'Klinsman', '1696602555@lve.gctu.edu.gh', 'a10f11c1ba82d9698f377c1408da77b2', '6246125', 2),
+(28, 'Shadrack Anim', 'Shadrack', '4211230058@live.gctu.edu.gh', '1455494c9f58563769b601366047c030', '', 2);
 
 --
 -- Indexes for dumped tables
