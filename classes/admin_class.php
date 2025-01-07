@@ -7,7 +7,7 @@ class Admin_Class
 
 	public function __construct()
 	{ 
-        $host_name='localhost';
+        $host_name='';
 		$user_name='root';
 		$password='';
 		$db_name='taskmatic';
